@@ -7,9 +7,7 @@ const Navbar = () => {
     <div className="shadow py-4">
       <img
         src={assets.logo}
-        alt="logo"
-        style={{ width: 120, border: '2px solid red' }}
-      />
+        alt="logo" />
     
     </div>
   )
