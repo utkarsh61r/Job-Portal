@@ -1,16 +1,16 @@
 import React from 'react'
-import { assets } from '../assets/assets'
+import { assets } from '../assets/assets'   
 
 const Navbar = () => {
+    console.log('logo path:', assets.logo)
   return (
-    <div  className='shadow-py-4'>
-      <div className='container px-4 2xl:px-4 mx-auto flex justify-between items-center'>
-       <img src={assets.logo} alt="Logo" /> 
-       <div>
-        <button> Recruiter Login</button>
-        <button>Login</button>
-       </div>
-      </div>
+    <div className="shadow py-4">
+      <img
+        src={assets.logo}
+        alt="logo"
+        style={{ width: 120, border: '2px solid red' }}
+      />
+    
     </div>
   )
 }
