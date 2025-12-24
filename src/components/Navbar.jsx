@@ -15,7 +15,7 @@ const Navbar = () => {
         <img
           src={assets.logo}
           alt="Job Dekho"
-          className="h-14 max-w-[200px] object-contain"
+          className="h-14 max-w-80 object-contain"
         />
 
        
